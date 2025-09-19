@@ -19,7 +19,6 @@ print(5 + 5)
 #decimal point numbers.
 print(4.0)
 print(2.0 + 4.5)
-print(10 / 5) # / division always returns a float. To return integer, use //
 
 #BOOLEAN
 print(True)
@@ -30,7 +29,9 @@ print(5 + 5 == 11)
 print("Hello" == "Hello")
 
 #How do I know what data type I'm working with? 
-type("Hello world")
-type(3)
-type(3.14)
-type(True)
+type("To see this message, wrap me in a print statement")
+print(type("Hello world"))
+print(type(3))
+print(type(3.14))
+print(type(True))
+
