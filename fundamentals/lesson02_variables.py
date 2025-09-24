@@ -4,6 +4,8 @@
 
 password = "G00seberryPie5"
 email = "mharrell@nhvweb.net"
+print("Password: ", password)
+print("Email: ", email)
 
 count = 42
 temp = 3
@@ -19,13 +21,15 @@ print(is_complete)
 enabled = False
 #print(is_complete)
 
-# for loops and math problems, you will see single letters, but otherwise AVOID THIS PRACTICE!
+# for math problems and loops, you will see single letters, but otherwise AVOID single letter variables!
 
 x = 3.14
 y = 7
+print(x + y)
 
 i = 0
 j = i + 1
+print(x, y)
 
 #CHALLENGES
 
