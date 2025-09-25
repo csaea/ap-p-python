@@ -28,7 +28,7 @@ i = 0
 j = i + 1
 print(x, y)
 
-# variables are flexible. you create or update another variable, as shown below:
+# variables are flexible. you create or update another variable, like so:
 
 count = 10
 print(count)
