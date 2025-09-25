@@ -7,7 +7,9 @@ email = "mharrell@nhvweb.net"
 print("Password: ", password)
 print("Email: ", email)
 
-count = 42
+count = 0
+count = count + 1
+print(count)
 temp = 3
 
 temperature = 72.5
