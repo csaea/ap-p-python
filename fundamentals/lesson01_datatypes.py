@@ -45,4 +45,22 @@ print(type(3))
 print(type(3.14))
 print(type(True))
 
-print("\n") 
+#CHALLENGES
+
+#Challenge 1
+# On a whiteboard or piece of paper, draw what will print for the following print statements
+print("Harry looked at the Mirror of Erised \nand saw his family \nsmiling at him\n")
+print("Product: \tLaptop \nPrice: \t$999 \nStock: \t42")
+
+#Challenge 2
+# Write down what data types
+#Look at the following and decide what data type each value is: String, integer, float, or boolean
+print(3)
+print(3.14)
+print("Hello world")
+print(5 != 4) 
+print("45 - 5 = 39")
+print(3.0 + 3)
+print(10 - 100)
+
+
