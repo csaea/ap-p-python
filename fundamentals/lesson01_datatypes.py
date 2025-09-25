@@ -62,5 +62,6 @@ print(5 != 4)
 print("45 - 5 = 39")
 print(3.0 + 3)
 print(10 - 100)
+print(False)
 
 
