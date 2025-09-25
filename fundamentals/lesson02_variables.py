@@ -7,11 +7,6 @@ email = "mharrell@nhvweb.net"
 print("Password: ", password)
 print("Email: ", email)
 
-count = 0
-count = count + 1
-print(count)
-temp = 3
-
 temperature = 72.5
 price = 3.99
 
@@ -32,6 +27,15 @@ print(x + y)
 i = 0
 j = i + 1
 print(x, y)
+
+# variables are flexible. you create or update another variable, as shown below:
+
+count = 10
+print(count)
+count_down = count - 2
+print(count_down)
+count = count_down
+print(count)
 
 #CHALLENGES
 
