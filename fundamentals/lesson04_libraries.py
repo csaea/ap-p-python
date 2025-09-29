@@ -6,7 +6,7 @@
 
 import math
 
-print("\n--- Math Library ---")
+print("\n--- Math Library ---\n")
 
 print("Square root of 25: ", math.sqrt(25))
 print("Ceiling of 4.2: ", math.ceil(4.2))
@@ -27,7 +27,7 @@ print("Pi constant: ", math.pi)
 # Use math library to round the float up to an integer. 
 
 import random
-print("\n--- Random Library ---")
+print("\n--- Random Library ---\n")
 
 print("Random integer between 1 and 10: ", random.randint(1, 10))
 print("Random float between 0 and 1: ", random.random())
