@@ -10,11 +10,11 @@ import math
 
 print("\n--- Math Library ---\n")
 
-print("Square root of 25: ", math.sqrt(25))
-print("Ceiling of 4.2: ", math.ceil(4.2))
-print("Floor of 4.8: ", math.floor(4.8))
-print("Power (2^5): ", math.pow(2, 5))
-print("Pi constant: ", math.pi)
+print("Square root: ", math.sqrt(25))
+print("Round up: ", math.ceil(4.2))
+print("Round down: ", math.floor(4.8))
+print("Power: ", math.pow(2, 5))
+print("Pi: ", math.pi)
 
 #------------------
 # RANDOM LIBRARY
@@ -32,13 +32,13 @@ print("Pi constant: ", math.pi)
 import random
 print("\n--- Random Library ---\n")
 
-print("Random integer between 1 and 10: ", random.randint(1, 7))
+print("Random integer: ", random.randint(1, 7))
 print("Random float between 0 and 1: ", random.random())
-print("Random choice from a list: ", random.choice(["red", "blue", "green"]))
+print("Random choice from list: ", random.choice(["taco", "burrito", "enchilada", "quesadilla"]))
 
 # Challenge 1: Circle Area with Math Library
 # Use two variables "radius" and "circle_area" to calculate the area of a circle with a diameter of 14. 
-# Givens: The formula to calculate a circle is πr² and a radius = diameter / 2
+# Formulas: the area of a circle is πr² -- the radius is diameter / 2
 import math
 radius = 14 / 2
 circle_area = math.pi * (radius ** 2)
@@ -50,6 +50,6 @@ print("Circle Area:", circle_area)
 # Store the result in a variable called "die_roll" and print it.
 import random
 die_roll = random.randint(1, 6)
-print("Die Roll:", die_roll)
+print("You rolled a:", die_roll)
 
 
