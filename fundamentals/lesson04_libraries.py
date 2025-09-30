@@ -24,7 +24,8 @@ print("Pi: ", math.pi)
 # Watch Tom Scott video on lava lamps and randomness: https://www.youtube.com/watch?v=1cUUfMeOijg
 # Optional video: Computerphile Random Numbers with LFSR (Linear Feedback Shift Register): https://www.youtube.com/watch?v=Ks1pw1X22y4
 
-# Precurser challenge: Create your own pseudorandom number generator
+# ** PRECURSER CHALLENGE **
+# Create your own pseudorandom number generator
 # Start with a seed that is a float with at least 10 numbers total. 
 # Perform a math calculation on it using addition, subtractions, and division. 
 # Use math library to round the float up to an integer. 
