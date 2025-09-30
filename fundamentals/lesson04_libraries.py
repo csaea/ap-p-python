@@ -25,10 +25,10 @@ print("Pi: ", math.pi)
 # Optional video: Computerphile Random Numbers with LFSR (Linear Feedback Shift Register): https://www.youtube.com/watch?v=Ks1pw1X22y4
 
 # ** PRECURSER CHALLENGE **
-# Create your own pseudorandom number generator
-# Start with a seed that is a float with at least 10 numbers total. 
-# Perform a math calculation on it using addition, subtractions, and division. 
-# Use math library to round the float up to an integer. 
+# Create your own pseudorandom number generator that utilizes as seed to output a random number. 
+# The seed should be a floating-point number with five total digits (including those before and after the decimal), and it must be greater than 100.0. 
+# Perform math calculations on it using addition, subtraction, and division. 
+# Use math library to round the float UP to an integer. 
 
 import random
 print("\n--- Random Library ---\n")
