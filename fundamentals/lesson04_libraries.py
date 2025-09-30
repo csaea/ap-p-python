@@ -27,9 +27,17 @@ print("Pi: ", math.pi)
 # ** PRECURSER CHALLENGE **
 # Create your own pseudorandom number generator that utilizes as seed to output a random number. 
 # The seed should be a floating-point number with five total digits (including those before and after the decimal), and it must be greater than 100.0. 
-# Perform math calculations on it using addition, subtraction, and division. 
-# Use math library to round the float UP to an integer. 
+# Perform at least 3 different math calculations on it (ie, addition, subtraction, and division). 
+# Use math library to round the float DOWN to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
+
+import math
+seed = 100.0 
+step1 = seed / 2.1
+step2 = step1 - 300
+step3 = step2 % 10
+result = math.floor(step3)
+print("\nYour random number is: ", result)
 
 import random
 print("\n--- Random Library ---\n")
