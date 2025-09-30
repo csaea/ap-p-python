@@ -29,6 +29,7 @@ print("Pi: ", math.pi)
 # The seed should be a floating-point number with five total digits (including those before and after the decimal), and it must be greater than 100.0. 
 # Perform math calculations on it using addition, subtraction, and division. 
 # Use math library to round the float UP to an integer. 
+# BONUS CHALLENGE: Make your random number output between 1 and 10. 
 
 import random
 print("\n--- Random Library ---\n")
