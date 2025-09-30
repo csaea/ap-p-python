@@ -24,12 +24,16 @@ print("Pi: ", math.pi)
 # Watch Tom Scott video on lava lamps and randomness: https://www.youtube.com/watch?v=1cUUfMeOijg
 # Optional video: Computerphile Random Numbers with LFSR (Linear Feedback Shift Register): https://www.youtube.com/watch?v=Ks1pw1X22y4
 
+
+
 # ** PRECURSER CHALLENGE **
 # Create your own pseudorandom number generator that utilizes as seed to output a random number. 
 # The seed should be a floating-point number with five total digits (including those before and after the decimal), and it must be greater than 100.0. 
 # Perform at least 3 different math calculations on it (ie, addition, subtraction, and division). 
 # Use math library to round the float DOWN to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
+
+
 
 import math
 seed = 100.0 
