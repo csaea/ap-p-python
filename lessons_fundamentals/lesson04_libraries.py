@@ -37,15 +37,13 @@ print("Pi: ", math.pi)
 ##### 
 # 
 print("------\n\n")
-import math 
-
-seed = 12.4444
+import math
+seed = 123.45
 step1 = seed / 6.7
 step2 = step1 - 800
-step3 = step2 + 180843
-step4 = step3 % 10
-result = math.floor(step4)
-print(result)
+step3 = step2 % 10 # returns 0-9.999
+result = math.floor(step3) + 1 # shifts to 1–10
+print("\nYour random number is: ", result)
 
 # limitednumber = step3 - result
 # answer = math.floor(limitednumber * 10)
