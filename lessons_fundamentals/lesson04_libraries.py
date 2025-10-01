@@ -6,18 +6,25 @@
 #------------------
 # MATH LIBRARY
 #------------------
-
 # Doc on Math library: https://docs.python.org/3/library/math.html
 
 import math
 print("\n--- Math Library ---\n")
 
-print("Square root: ", math.sqrt(25))
-print("Round up to an integer: ", math.ceil(4.2))
-print("Round down to an integer: ", math.floor(4.8))
-print("Power: ", math.pow(2, 5))
-print("Pi: ", math.pi)
+sq_root = math.sqrt(25)
+print("Square root:", sq_root)
 
+round_up = math.ceil(4.2)
+print("Round up: ", round_up)
+
+round_down = math.floor(4.8)
+print("Round down: ", round_down)
+
+exponent = math.pow(2,5)
+print(exponent)
+
+pi = math.pi
+print("Pi: ", pi)
 
 #------------------
 # RANDOM LIBRARY
@@ -33,7 +40,6 @@ print("Pi: ", math.pi)
 # Perform at least 3 different math calculations on it (ie, addition, subtraction, and division). 
 # Use math library to round the float DOWN to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
-
 
 print("\n--- Random Library ---\n")
 
