@@ -1,5 +1,11 @@
-# This is a comment
+#----------
 #DATA TYPES
+#----------
+
+#KEY CONCEPTS: data types, strings, integers, floats, booleans
+
+# The following are common (but not all) data types for python. 
+#These are the only ones you'll need to know for AP CSP exam
 
 # 1. STRINGS:
 print("Hello world")
@@ -9,7 +15,6 @@ print("Once upon a time \nand a very good time it was \nthere was a moocow")
 print("Name: \tBilly \nAge: \t14 \nGrade: \t9")
 
 # INTEGERS
-
 print(42)
 print(-23)
 print(5 + 5 - 11)
@@ -19,7 +24,7 @@ print(4.0)
 print(2.0 + 4.5)
 print(2.0 + 4) #returns a float
 
-#BOOLEAN 
+#BOOLEANS 
 print(True) # 1
 print(False) # 0
 print(1 == 1)
