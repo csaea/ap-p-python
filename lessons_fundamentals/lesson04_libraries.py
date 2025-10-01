@@ -39,13 +39,19 @@ print("\n--- Random Library ---\n")
 
 import random
 
-# methods:
-print("Random integer: ", random.randint(1, 7))
-print("Random float between 0 and 1: ", random.random())
-my_favs = ["taco", "burrito", "enchilada", "quesadilla"]
-print(random.choice(my_favs))
-random.shuffle(my_favs)
-print(my_favs)
+random_integer = random.randint(1,100)
+print(random_integer)
+
+random_float = random.random()
+print(random_float) # between 0 and 1, useful for percentages
+
+my_list = ["taco", "burrito", "enchilada", "quesadilla"]
+
+print(random.choice(my_list))
+
+random.shuffle(my_list) # shuffles original list
+
+print(my_list)
 
 # Challenge 1: Circle Area with Math Library
 # Use two variables "radius" and "circle_area" to calculate the area of a circle with a diameter of 14. 
