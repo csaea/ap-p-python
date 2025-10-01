@@ -71,13 +71,13 @@ Functions always have parentheses immediately after their names. Python includes
 Some functions can take in many **arguments** (denoted by x, y, z). Any values that goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
 
 ```python
-length = len("Hello")  # One argument: a string.
+len("Hello")  # One argument: a string.
 # Returns the length of the string, which is 5.
 
 print("Value:", 42)  # Two arguments: a string and a number.
-# Displays "Value: 42" on the screen.
+# Displays "Value: 42" in the Terminal.
 
-largest = max(4, 23, 8, 11, 2)  # Five arguments: a list of numbers.
+max(4, 23, 8, 11, 2)  # Five arguments: a list of numbers.
 # Returns the maximum value, which is 23.
 ```
 ### Custom Functions
@@ -99,7 +99,7 @@ Various mathematical operations use these common operators:
 `-`: Subtraction. 5 - 2 returns 3
 `*`: Multiplication. 4 * 3 returns 12
 `/`: Division; 5 / 2 returns a float 2.5
-`//`: Floor Division. 5 // 2 rounds down to 2
+`//`: Floor Division. 5 // 2 rounds down to 2. Converts float to integer.
 `%`: Modulus. 10 % 3 returns remainder 1
 `**`: Exponentiation (Power). 2 ** 3 returns 8
 
