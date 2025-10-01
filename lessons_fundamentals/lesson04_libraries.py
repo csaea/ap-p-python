@@ -34,19 +34,6 @@ print("Pi: ", math.pi)
 # Use math library to round the float DOWN to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
 
-# Example solution with Bonus:
-print("------\n\n")
-import math
-seed = 123.45
-step1 = seed / 6.7
-step2 = step1 - 800
-step3 = step2 % 10 # returns 0-9.999
-result = math.floor(step3) + 1 # rounds down to an integer, then shifts to 1–10
-print("\nYour random number is: ", result)
-
-# limitednumber = step3 - result
-# answer = math.floor(limitednumber * 10)
-
 
 print("\n--- Random Library ---\n")
 
