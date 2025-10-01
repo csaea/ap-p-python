@@ -1,2 +1,2 @@
-# ap-p-python
-repo for CS AP Principles, with examples in python
+# python-fundamentals
+All the fundamental concepts for python for CSAEA
