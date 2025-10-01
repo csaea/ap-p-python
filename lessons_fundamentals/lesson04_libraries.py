@@ -42,7 +42,7 @@ seed = 123.45
 step1 = seed / 6.7
 step2 = step1 - 800
 step3 = step2 % 10 # returns 0-9.999
-result = math.floor(step3) + 1 # shifts to 1–10
+result = math.floor(step3) + 1 # rounds down to an integer, then shifts to 1–10
 print("\nYour random number is: ", result)
 
 # limitednumber = step3 - result
