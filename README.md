@@ -7,7 +7,7 @@ Here you'll find all the fundamental concepts for python for CSAEA. Lessons and 
 In your GitHub repository (repo), click the green button: *<> Code*. Navigate to the *Codespaces* tab, and *Create a codespace on Main*. This opens up a browser-version of VS Code. 
 IMPORTANT: Codespaces are temporary, so you must always commit your code and sync it to your GitHub. 
 
-# To Commit Your Code
+## To Commit Your Code
 
 1. In Codespaces (ie, VS Code), click the 'Source Control' icon on the left (it's the icon with the branches symbol, and usually a blue badge with a number on it).
 2. Write a commit message. (Something very simple).
