@@ -1,7 +1,6 @@
-# python-fundamentals
-All the fundamental concepts for python for CSAEA.
+# CSAEA Python Fundamentals
 
-Lessons and challenges can be found in the directories here. 
+Here you'll find all the fundamental concepts for python for CSAEA. Lessons and challenges can be found in the directories here. The lessons include everything you'd need to know for the AP Computer Science Principles Exam. 
 
 ## To Develop and Run Code
 
