@@ -34,8 +34,7 @@ print("Pi: ", math.pi)
 # Use math library to round the float DOWN to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
 
-##### 
-# 
+# Example solution with Bonus:
 print("------\n\n")
 import math
 seed = 123.45
