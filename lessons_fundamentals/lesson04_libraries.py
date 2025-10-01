@@ -47,10 +47,10 @@ print(random_float) # between 0 and 1, useful for percentages
 
 my_list = ["taco", "burrito", "enchilada", "quesadilla"]
 
-print(random.choice(my_list))
+random_selection = random.choice(my_list)
+print(random_selection)
 
 random.shuffle(my_list) # shuffles original list
-
 print(my_list)
 
 # Challenge 1: Circle Area with Math Library
