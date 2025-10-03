@@ -44,7 +44,7 @@ step1 = seed / 6.7
 step2 = step1 - 800
 step3 = step2 + 180843
 step4 = step3 % 10
-result = math.floor(step4)
+result = math.floor(step4) + 1
 print(result)
 
 # limitednumber = step3 - result
@@ -71,4 +71,3 @@ print(my_favs)
 # Use the random library to simulate rolling a six-sided die.
 # The output should be a random integer between 1 and 6.
 # Store the result in a variable called "die_roll" and print it.
-
