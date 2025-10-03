@@ -6,18 +6,25 @@
 #------------------
 # MATH LIBRARY
 #------------------
-
 # Doc on Math library: https://docs.python.org/3/library/math.html
 
 import math
 print("\n--- Math Library ---\n")
 
-print("Square root: ", math.sqrt(25))
-print("Round up to an integer: ", math.ceil(4.2))
-print("Round down to an integer: ", math.floor(4.8))
-print("Power: ", math.pow(2, 5))
-print("Pi: ", math.pi)
+sq_root = math.sqrt(25)
+print("Square root:", sq_root)
 
+round_up = math.ceil(4.2)
+print("Round up: ", round_up)
+
+round_down = math.floor(4.8)
+print("Round down: ", round_down)
+
+exponent = math.pow(2,5)
+print(exponent)
+
+pi = math.pi
+print("Pi: ", pi)
 
 #------------------
 # RANDOM LIBRARY
@@ -55,13 +62,19 @@ print("\n--- Random Library ---\n")
 
 import random
 
-# methods:
-print("Random integer: ", random.randint(1, 7))
-print("Random float between 0 and 1: ", random.random())
-my_favs = ["taco", "burrito", "enchilada", "quesadilla"]
-print(random.choice(my_favs))
-random.shuffle(my_favs)
-print(my_favs)
+random_integer = random.randint(1,100)
+print(random_integer)
+
+random_float = random.random()
+print(random_float) # between 0 and 1, useful for percentages
+
+my_list = ["taco", "burrito", "enchilada", "quesadilla"]
+
+random_selection = random.choice(my_list)
+print(random_selection)
+
+random.shuffle(my_list) # shuffles original list
+print(my_list)
 
 # Challenge 1: Circle Area with Math Library
 # Use two variables "radius" and "circle_area" to calculate the area of a circle with a diameter of 14. 
