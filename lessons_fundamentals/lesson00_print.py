@@ -1,4 +1,4 @@
-#KEY CONCEPTS: print statements, comments, running code.
+# KEY CONCEPTS: print statements, comments, running code.
 
 # Write comments after the hashtag(#). Python won't run these lines. They are for your code comments while you develop. 
 # It is common to delete all comments before you deploy (release) your code to the public. 
