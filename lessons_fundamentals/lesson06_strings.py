@@ -27,10 +27,7 @@ print("Reversed, stepping every third letter:", word[::-3])
 
 last_name = "Lovelace"
 length = len(last_name)
-print("Length:", length)
-
-# If you want to concatenate a number, you must cast it to a string with str() 
-print("The last name is" + str(length) + "letters long")
+print("Length of name:", length)
 
 character = "spOngEBOB SQuarPaNts"
 print("\nUppercase:", character.upper())
