@@ -1,18 +1,19 @@
 # Basic string creation and indexes:
 greeting = "Hello"
-name = "Ada"
-print(greeting, name)
+first_name = "Ada"
+print(greeting, first_name)
 
 # 0 1 2 3 4 
 # H e l l o
 second_letter = greeting[1]
 print(second_letter)
 
-message = greeting + " " + name + "!!!!"
+#Concatenation: 
+message = greeting + " " + first_name + "!!!!"
 print("Concatenated message:", message)
 
 print()
-
+#Splicing
 word = "Super-cali-fragil-istic-expi-ali-docious"
 print("First letter:", word[0])
 print("Last letter:", word[-1])
@@ -22,13 +23,15 @@ print("Last seven letters:", word[-7:])
 print("Step through every second character:", word[::2])
 print("Reversed, stepping every third letter:", word[::-3])
 
-## Built in functions
+## Built-in string functions
 
-country = "Finland"
-length_of_word = len(country)
-print(length_of_word)
+last_name = "Lovelace"
+length = len(last_name)
+print("Length:", length)
+print("The last name is" + str(length) + "letters long")
 
-phrase = "spOngEBOB"
-print("\nUppercase:", phrase.upper())
-print("Lowercase:", phrase.lower())
-print("Capitalized:", phrase.capitalize())
+character = "spOngEBOB SQuarPaNts"
+print("\nUppercase:", character.upper())
+print("Lowercase:", character.lower())
+print("Capitalized:", character.capitalize())
+print("Capitalized:", character.title())
