@@ -133,18 +133,6 @@ factorial_value = math.factorial(5)  # Returns 120
 ```
 ## String Manipulation 
 
-### f-string Formatting 
-
-F-strings are "formatted strings". Add the letter 'f' right before a string to let it take in dynamic variables or expressions, enclosed in braces `{}`. 
-
-```python
-food = "taco"
-price = 5
-
-print(f"This {food} costs {price} dollars!?")
-# => This taco costs 5 dollars!?
-```
-
 ### String Concatenation
 
 Concatenate strings with a plus sign. 
@@ -165,7 +153,7 @@ Note that the plus sign does not add strings together, even if they are numbers.
 2 + 2 + 6 = 10
 
 #string data type: 
-'2' + '2' + '6' = 226
+'2' + '2' + '6' = '226'
 'two' + 'two' + 'six' = twotwosix
 ```
 
@@ -197,6 +185,18 @@ Various functions used to manipulate strings (and occasionally other iterables, 
 - `len()`: Returns integer of the length of a string. 
 - `find()`: Returns integer of index location of a searched substring. 
 - `replace()`: Returns a sequence of numbers.
+
+### f-string Formatting 
+
+F-strings are "formatted strings". Add the letter 'f' right before a string to let it take in dynamic variables or expressions, enclosed in braces `{}`. 
+
+```python
+food = "taco"
+price = 5
+
+print(f"This {food} costs {price} dollars!?")
+# => This taco costs 5 dollars!?
+```
 
 ## Boolean Operators
 
