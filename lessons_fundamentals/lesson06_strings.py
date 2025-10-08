@@ -29,8 +29,34 @@ last_name = "Lovelace"
 length = len(last_name)
 print("Length of name:", length)
 
-character = "spOngEBOB SQuarPaNts"
+character = "spOngEBOB SQuarePaNts"
 print("\nUppercase:", character.upper())
 print("Lowercase:", character.lower())
 print("Capitalized first letter:", character.capitalize())
 print("Title Format:", character.title())
+
+print()
+
+#Find and replace text
+sentence = "I'm a goofy goober"
+new_sentence = sentence.replace("I'm", "You're")
+next_replacement = sentence.replace("goofy", "goober")
+print(sentence)
+print(new_sentence)
+print(next_replacement)
+
+# FORMATTED STRINGS IN PYTHON
+# f-strings allow variables and expressions inside strings
+
+print("\n--- Formatted Strings ---")
+
+name = "Adam"
+age = 400
+city = "Valhalla"
+
+print(f"Hello, my name is {name}. I am {age} years old and live in {city}.")
+
+# f-strings can do math and function calls inside {}
+
+print(f"Next year, I'll be {age + 1}. My name in uppercase is {name.upper()}.")
+
