@@ -89,10 +89,11 @@ print(f"{input("Enter your last name: ")}," + f" {input("Enter your first name: 
 first = input("First?") 
 last = input("Last?")
 print(last + ", " + first)
+
 # Challenge 3: Word Mutation
 # Ask for a word and print it backwards, in uppercase, and lowercase.
 # Example output
 # Enter a word: Python
+# Backwards: nohtyP
 # Uppercase: PYTHON
 # Lowercase: python
-# Backwards: nohtyP
