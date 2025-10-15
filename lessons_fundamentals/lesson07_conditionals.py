@@ -21,6 +21,7 @@ num1 = 10
 if num1 == 10: 
     print("Your number is equal to 10")
 
+#if-else
 num2 = 13
 print(num2 <= 12)
 if num2 <= 12:
@@ -28,8 +29,7 @@ if num2 <= 12:
 else: 
     print("Your number is greater than 12")
 
-#if elif else
-
+#if-elif-else
 temperature = 93
 if temperature >= 80: 
     print("It's hot!")
@@ -60,9 +60,9 @@ print()
 print()
 
 age = 17
-has_permission = True
+has_permit = True
 
-if age >= 17 and has_permission:
+if age >= 17 and has_permit:
     print("You can drive")
 else:
     print("Can't drive yet")
@@ -72,7 +72,7 @@ print("--- Using 'or' --- ")
 
 day = "Saturday"
 
-if day == "Saturday" or  day == "Sunday":
+if day == "Saturday" or day == "Sunday":
     print("It's the weekend!")
 elif day is "Monday" or day is "Tuesday" or day is "Wednesday" or day is "Thursday" or day is "Friday":
     print("It's the weekday")
