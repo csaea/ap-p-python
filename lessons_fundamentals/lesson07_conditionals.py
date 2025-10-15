@@ -81,3 +81,26 @@ else:
 
 if day is not "Monday":
     print("It's not Monday")
+
+# Challenge 1: Even or Odd
+# Ask the user for a number, and tell them if it’s even or odd.
+# Example output:
+# Enter a number: 7
+# 7 is odd.
+# Hint: use modulus operator
+
+# Challenge 2: Password Check
+# Create a variable with a stored password
+# Ask the user to enter a password. 
+# If it matches the stored password, print "Access granted." Otherwise, "Access denied."
+# Example output:
+# Enter password: dolphin
+# Access granted. Access denied.
+# Enter password: swordfish
+# Access granted.
+
+# Challenge 3: Grading System
+# Ask the user for a numeric grade (0-100) and print a letter grade (A,B,C,D,F).
+# Example output:
+# Enter your grade: 81
+# You earned an B.
