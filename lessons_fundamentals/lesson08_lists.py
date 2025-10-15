@@ -45,5 +45,3 @@ print("Remaining animals:", animals)
 print()
 print("--- Useful List Functions ---")
 
-new_list = animals.replace("pangolin")
-
