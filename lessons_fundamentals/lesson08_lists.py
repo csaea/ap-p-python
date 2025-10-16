@@ -29,7 +29,7 @@ print("--- Modifying Lists ---")
 animals[0] = "babirusa"
 print(animals)
 
-# add elemnt at end:
+# add element at end of list:
 animals.append("glass frog")
 print(animals)
 
