@@ -4,6 +4,9 @@
 print()
 print("--- Lists in Python ---")
 
+#initialize a list with brackets:
+empty_list = []
+
 animals = ["donkey", "pangolin", "blobfish"]
 numbers = [2, 4, 6, 8, 10]
 mixed = ["piffle", 42, True, 9.99]
@@ -15,6 +18,7 @@ print(mixed)
 print()
 print()
 print()
+
 print("--- Indexing: how to access the elements of a list ---")
 print("First Element:", animals[0])
 print("Second element:", animals[1])
