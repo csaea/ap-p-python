@@ -1,7 +1,7 @@
 
 # Python Reading List
 
-Read the following articles from W3Schools to strengthen your foundation in Python.
+Read the following texts on Python,
 
 ---
 
@@ -49,5 +49,5 @@ Explore how to define and call reusable blocks of code with functions.
 
 ---
 
-If you need any refreshers, Khan Academy has a good, free course with short lectures on AP Computer Science Principles:  
+For further Study, Khan Academy has a good, free course with short lectures on AP Computer Science Principles:  
 [AP Computer Science Principles on Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles)
