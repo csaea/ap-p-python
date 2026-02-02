@@ -14,6 +14,8 @@ def say_bye():
 say_hi()
 say_bye()
 say_hi()
+say_bye()
+say_bye()
 
 print("\nExample 2")
 
@@ -67,14 +69,14 @@ print(is_far(-3))
 # The function should also take in a number of times that we should double the number
 
 def double_sequencer(number, times):
-    value = number
+    value = number    # makes a copy of the initial number to use in function
     sequence = []
 
     for i in range(times):
-        value = value * 2
+        value = value * 2      # updates 'value' to use for next iteration (and doesn't overwrite original number)
         sequence.append(value)
     
     return sequence
 
-result = double_sequencer(1, 5)
+result = double_sequencer(3, 5)
 print(result)
