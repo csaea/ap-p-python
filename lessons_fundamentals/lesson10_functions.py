@@ -76,5 +76,5 @@ def double_sequencer(number, times):
     
     return sequence
 
-result = double_sequencer(1, 50000)
+result = double_sequencer(1, 5)
 print(result)
