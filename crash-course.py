@@ -1,9 +1,8 @@
 # comment
 
-# here
-# is
-# a
-# comment
+# to comment multiple lines,
+# highlight the lines,
+# and click ctrl + / 
 
 print("Hello world!")
 
@@ -14,9 +13,10 @@ b = 5.5         # float
 c = "CSAEA"     # string
 d = False       # boolean 
 
+print(a)
 print(a, b, c, d)
 
-# OPERATORS 
+# MATH OPERATORS 
 # + - / *    %  **  //
 # +=   -=   /=   
 
