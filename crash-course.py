@@ -87,8 +87,8 @@ print(end + "\n")   # \n adds a new line
 # ceil rounds up, floor rounds down, pow always returns a float
 
 print(math.sqrt(14))
-print(math.ceil(3.65))
-print(math.floor(8.94))
+print(math.ceil(3.65)) # rounds up to 4.0
+print(math.floor(8.94)) # rounds down to 8.0
 print(math.pow(2, 4))
 
 # CONDITIONALS
@@ -108,7 +108,7 @@ else:
     print("Reached else")
 
 
-if 1 > 1 and 1 == 1: 
+if 2 > 1 and 1 == 1: 
     print("Reached the first condition")
 elif 6 == 7 or 3 != 3:
     print("Reached second condition")
