@@ -82,13 +82,20 @@ first = "Ada"
 last = "Lovelace"
 school = "CSAEA"
 
+print("Hello, my name is" + "" + first + "" + last + "" + "from" + school )
+print(f"Hello, my name is {first} {last} from {school}")
+
 # <Your Code Here>
 
 
 # ---------------- 9. Shopping Cart ----------------
-cart = [12, 5, 30, 8]
-
-# <Your Code Here>
+cart = [12, 5, 30, 8, 4]
+total_price = 0 
+for price in cart: 
+    total_price += price 
+item_count = len(cart)
+print(f"total price is ${total_price}")
+print(f"with {item_count} items in cart") 
 
 
 # ---------------- 10. Grocery List Manager ----------------
@@ -99,9 +106,11 @@ groceries = ["milk", "eggs", "bread"]
 
 # ---------------- 11. Rocket Launch ----------------
 start = 10
-
-# <Your Code Here>
-
+import time
+for z in range(start, 0, -1):
+    print(z)
+    time.sleep(1)
+print("Liftoff!")
 
 # ---------------- 12. Times Table Helper ----------------
 number = 7
