@@ -9,7 +9,7 @@ print("Hello world")
 print(42)
 
 # Print can take in any number of arguments, separated by a comma. This helps for clarity in the output. 
-print("Age:", 24, "Numbers:", 1, 2, 3)
+print("Age:", 24, "Numbers:", 1, 2, 3, False)
 
 # Print can also run expressions and methods: 
 print("Sum: ", 4 + 5)
