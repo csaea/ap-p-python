@@ -28,17 +28,32 @@ print(PI)
 # Python's library is a Pseudorandom Number Generator 
 
 # Create your own pseudorandom number generator that utilizes as seed to output a random number. 
-# The seed should be a floating-point number with five total digits (including those before and after the decimal), and it must be greater than 100.00. 
-# Perform at least 3 different math calculations on it (ie, addition, subtraction, and division). 
+# 1. The seed should be a INTEGER with five total digits. 
+# 2. Perform oneat least 3 different math calculations on it (ie, addition, subtraction, and division). 
 # Use math library to round the float UP to an integer. 
-# BONUS CHALLENGE: Make your random number output between 1 and 10. 
+# Test if it works by changing your SEED integer value (on the left side of the decimal point)
+# BONUS CHALLENGE: Make your random number always output below 10. 
 
-seed = 767
-step1 = seed / 6.7
-print(step1)
-step2 = step1 - 800
-print(step2)
-step3 = step2 % 10
-print(step3)
-result = math.ceil(step3)
-print("Your random num is:", result)
+# Simple version:
+seed = 765
+
+calcs = seed + 2234 * 22 / 3
+print(calcs)
+randint = math.ceil(calcs)
+
+print(f"Simple random num gen: {int(calcs) % 10}")
+# Change the seed, get a new, pseudorandom number
+
+for s in range(5):
+
+    step1 = seed / 6.7
+    # print(step1)
+    step2 = step1 - 800.33
+    # print(step2)
+    step3 = step2 ** 3 
+    # print(step3)
+    round_up = math.ceil(step3)  
+    result = round_up % 10 # remainder between 0 and 6 (never 6)
+    print("Your random num is:", result)
+
+    seed = seed * 3 
