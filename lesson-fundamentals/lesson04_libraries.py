@@ -35,13 +35,13 @@ print(PI)
 # BONUS CHALLENGE: Make your random number always output below 10. 
 
 # Simple version:
-seed = 765
+seed = 7265
 
 calcs = seed + 2234 * 22 / 3
 print(calcs)
 randint = math.ceil(calcs)
 
-print(f"Simple random num gen: {int(calcs) % 10}")
+print(f"Simple random num gen: {randint % 10}")
 # Change the seed, get a new, pseudorandom number
 
 for s in range(5):
