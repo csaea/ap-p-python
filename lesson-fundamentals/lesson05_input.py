@@ -28,11 +28,9 @@ print("You are", height, "meters tall.")
 # Challenge 2: Adding Two Numbers
 # Ask the user for two numbers, add them together, and print the result.
 
-
 # Challenge 3: Circle Area from User Input
 # Ask the user for the diameter of a circle, then calculate and print the area.
 
-
-# Challenge: Custom Die Roll
+# Challenge 4: Custom Die Roll
 # Ask the user to enter how many sides the die should have.
 # Then simulate rolling the die once and print the result.
