@@ -35,16 +35,6 @@ last_name = "    Lovelace"
 length = len(last_name)
 print("Length of string:", length)
 
-# Challenge 1: Favorite Quote
-# Ask the user for their favorite quote and display its length.
-# EXAMPLE OUTPUT:
-# Enter your favorite quote: Those who believe in telekinetics, raise my hand.
-# Your quote is 48 characters long.
-
-# Challenge 2:
-# Ask the user to enter a word that is at least 7 characters long. 
-# Print the 2nd through 6th characters.
-# Use string slicing.
 
 character = "spOngEbOB SQuArePaNts"
 print("\nLowercase:", character.lower())
@@ -73,6 +63,18 @@ joined = " and ".join(items)
 print(joined)
 print(type(items))
 print(type(joined))
+
+
+# Challenge 1: Favorite Quote
+# Ask the user for their favorite quote and display its length.
+# EXAMPLE OUTPUT:
+# Enter your favorite quote: Those who believe in telekinetics, raise my hand.
+# Your quote is 48 characters long.
+
+# Challenge 2:
+# Ask the user to enter a word that is at least 7 characters long. 
+# Print the 2nd through 6th characters.
+# Use string slicing.
 
 # Challenge 3: Word Mutation
 # Ask for a word and print it in reverse, in uppercase, and lowercase.
