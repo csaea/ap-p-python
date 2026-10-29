@@ -59,11 +59,11 @@ four = is_far(1000000)
 print(one, two, three, four)
 
 # I want to create a function that takes in a number and doubles it, then adds it to a list.
-# The function should also take in a number of times that we should double the number
+# Also, I want the function to take in a number of times that we should double the number
 # Write a function named doubler(num, times) that has TWO parameters: 
-# First parameter:  the number i want doubled
-# Second paramater: how many times the loop should run 
-# Tools: loops, lists [], .append()
+# First parameter named 'num': the number i want doubled
+# Second paramater named 'times':how many times we should double the number
+# Tools: loops, lists[], .append(), *
 
 #Example output:
 # doubler(1, 5)
