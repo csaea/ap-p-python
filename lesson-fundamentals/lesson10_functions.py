@@ -64,6 +64,69 @@ print(one, two, three, four)
 # Second paramater named 'times':how many times we should double the number
 # Tools to use: loops, lists[], .append(), *
 
+def doubler(num, times):
+    doubled_numbers = []
+    number = num
+
+    for n in range(times):
+        number = number * 2
+        doubled_numbers.append(number)
+
+    print(doubled_numbers)
+    return doubled_numbers
+
+doubler(1, 5)
+
 # Example output:
 # doubler(1, 5)
 # result --> [2, 4, 8, 16, 32]
+
+
+# For Challenges 1 - 3, first write pseudocode, then solve in code.
+ 
+# Challenge 1. 
+# Make a calculator with 4 procedures that accept two arguments each. 
+# 1) add any two numbers and print and return the result
+# 2) subtract any two numbers and print and return the result
+# 3) divide any two numbers and print and return the result
+# 4) multiply any two numbers and print and return the result 
+
+def adder(a, b):
+    print(a + b)
+    return a + b
+
+sum = adder(1,3)
+sum_two = adder(234,9)
+print(sum)
+print(sum_two)
+
+# Challenge 2
+# Make a function called 'average' that:
+# 1) accepts five numbers
+# 2) returns the average
+# 3) print the returned value outside the function
+
+# Challenge 3
+# Make a function called is_even that:
+# 1) accepts one number
+# 2) prints "Even" if the number is even
+# 3) prints "Odd" if the number is odd
+
+
+# Challenge 4
+# Use the pseudocode below to write code:
+# Make a function called "analyze_word" that counts how many vowels and consonants are in a word
+# Tools: uses a for loop, IF/THEN statement, "aeiou".
+
+# The function analyze_word accepts one argument, a single word (string):
+# Initialize two variables:
+# vowelCount set to 0
+# consonantCount set to 0
+# Use a loop to iterate through each character in the word.
+# Inside the loop, use an IF/ELSE statement:
+# If the character is a vowel (a, e, i, o, u), increment vowelCount (increment means add 1 to vowelCount).
+# Otherwise, increment consonantCount.
+# After the loop ends: 
+# 	return a f-string that states how many vowels and how many consonants are in the word.
+
+# Call the function with a sample one-word string and print the returned result outside the function
