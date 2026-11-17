@@ -130,3 +130,9 @@ print(sum_two)
 # 	return a f-string that states how many vowels and how many consonants are in the word.
 
 # Call the function with a sample one-word string and print the returned result outside the function
+
+
+
+
+
+
